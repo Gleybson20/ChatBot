@@ -10,7 +10,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 # Verifica se a chave foi carregada corretamente
 if not api_key:
-    raise ValueError("ERRO: A chave OPENAI_API_KEY não foi encontrada. Verifique o arquivo .env!")
+    raise ValueError("❌ ERRO: A chave OPENAI_API_KEY não foi encontrada. Verifique o arquivo .env!")
 
 # Inicializa o cliente OpenAI
 client = openai.OpenAI(api_key=api_key)
@@ -21,31 +21,18 @@ def chat_with_openai(prompt):
     """
     try:
         response = client.chat.completions.create(
-            model="gpt-4o",  # Alterado para o modelo disponível na sua conta
-            messages=[
-                {"role": "system", "content": "Você é um assistente virtual de uma empresa."},
-                {"role": "user", "content": prompt}
-            ]
-        )
-        return response.choices[0].message.content
-    except Exception as e:
-        return f"Erro na comunicação com a OpenAI: {str(e)}"
-
-def chat_with_openai(prompt):
-    """
-    Simula uma resposta caso a API não esteja disponível.
-    """
-    if not api_key:
-        return "Modo offline: resposta simulada."
-
-    try:
-        response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": "Você é um assistente virtual de uma empresa."},
+                {"role": "system", "content": "Você é um assistente virtual da A.C.E. Consultoria."},
                 {"role": "user", "content": prompt}
             ]
         )
-        return response.choices[0].message.content
-    except openai.OpenAIError:
-        return "Erro: Sem créditos. Modo offline ativado."
+        return response.choices[0].message.content.strip()
+    except openai.OpenAIError as e:
+        return f"❌ Erro na comunicação com a OpenAI: {str(e)}"
+
+# Teste opcional ao rodar o arquivo diretamente
+if __name__ == "__main__":
+    pergunta_teste = "O que é a A.C.E. Consultoria?"
+    print(f"Pergunta: {pergunta_teste}")
+    print("Resposta da OpenAI:", chat_with_openai(pergunta_teste))
