@@ -1,13 +1,35 @@
 {
-    "empresa": {
-        "nome": "A.C.E. Consultoria",
-        "fundacao": "1993",
-        "servicos": ["Pesquisa de Mercado", "Gestão Financeira", "Planejamento Estratégico", "Mapeamento de processos", "Planejamento Estratégico", "Plano de Negócios", "Gestão de pessoas", "Plano de Marketing"]
-    },
     "faq": {
+        "Qual o ano de fundação da ACE?": "A A.C.E. Consultoria foi fundada em 1993.",
+        "O que é a A.C.E. Consultoria?": "A A.C.E. Consultoria é uma empresa júnior de consultoria em gestão empresarial, fundada por estudantes da Universidade Federal de Pernambuco (UFPE), com o objetivo de oferecer serviços de consultoria a empresas e organizações, proporcionando experiência prática aos alunos e soluções inovadoras aos clientes.",
+        "Quando e como a A.C.E. Consultoria foi fundada?": "A A.C.E. Consultoria foi fundada há mais de 30 anos, após seus fundadores terem contato com o conceito de empresa júnior em uma viagem a São Paulo. Eles acharam a ideia inovadora e decidiram implementá-la em Pernambuco, criando a A.C.E. na UFPE.",
+        "Qual é a origem do nome 'A.C.E.'?": "A sigla 'A.C.E.' faz referência a uma famosa jogada ofensiva no tênis ou vôlei (do inglês, 'ace'), em homenagem à equipe inicial, composta por estudantes de Administração, Contabilidade e Economia.",
+        "Quem foram os fundadores da A.C.E. Consultoria?": "Raul Javales, Juliana Meira, Nilma Periquito, Paulo Gustavo e José Gomes.",
+        "Qual é a missão da A.C.E. Consultoria?": "Fornecer as melhores soluções de gestão para o mercado, formando lideranças diversificadas e potencializando resultados através da inovação.",
+        "Qual é a visão da A.C.E. Consultoria?": "Propagar a Chama!",
+        "Quais são os valores da A.C.E. Consultoria?": "Liderar fazendo o certo. Não entregue, Encante! Ser inconformado não basta. Construímos juntos. Sentimento de dono. Desculpa ou Resultado!",
+        "Quais são as diretorias da A.C.E. Consultoria?": "A A.C.E. Consultoria possui as seguintes diretorias: Marketing e Vendas, Institucional, Projetos, Pessoas e Cultura, e Estratégia.",
+        "Quem é o atual Diretor(a) de Marketing e Vendas da A.C.E. Consultoria?": "A atual Diretora de Marketing e Vendas da A.C.E. Consultoria é João Victor Maroja.",
+        "Quem é o atual Diretor(a) Institucional da A.C.E. Consultoria?": "O atual Diretor Institucional da A.C.E. Consultoria é Antônio Bruno Moreira.",
+        "Quem é o atual Diretor(a) de Projetos da A.C.E. Consultoria?": "O atual Diretor de Projetos da A.C.E. Consultoria é Evellyn Mendes.",
+        "Quem é a atual Diretor(a) de Pessoas e Cultura da A.C.E. Consultoria?": "A atual Diretora de Pessoas e Cultura da A.C.E. Consultoria é Anna Oliveira.",
+        "Quem é o atual Diretor(a) de Estratégia da A.C.E. Consultoria?": "O atual Diretor de Estratégia da A.C.E. Consultoria é Gabriel Falcão.",
+        "Quais são os principais serviços oferecidos pela A.C.E. Consultoria?": "A A.C.E. Consultoria oferece serviços de consultoria em gestão empresarial, incluindo soluções em operações, pessoas, financeiro, estratégia de mercado, marketing e vendas.",
+        "Quais são algumas das empresas que já foram atendidas pela A.C.E. Consultoria?": "A A.C.E. Consultoria já atendeu empresas como SADIA S.A., Ultragaz, DECA, Concrepoxi, Hotlink, TrueChange, FACIMED, Nexel, Faz Fardas, Neurobots, Cia do Chopp, Smarthec, Andrade Distribuidora e Mercado da Torre.",
+        "Quais são os diferenciais da A.C.E. Consultoria?": "Os diferenciais da A.C.E. Consultoria incluem a personalização das soluções, alinhando estratégias inovadoras às necessidades específicas de cada cliente, sempre com foco em resultados e excelência.",
+        "Como a A.C.E. Consultoria aborda a experiência do cliente?": "A A.C.E. Consultoria oferece soluções personalizadas em Customer Success e Customer Experience, visando transformar a experiência do cliente em um diferencial competitivo, promovendo engajamento e fidelização a longo prazo.",
+        "Quais são os prêmios e reconhecimentos recebidos pela A.C.E. Consultoria?": "A A.C.E. Consultoria já recebeu diversos prêmios e reconhecimentos, incluindo o MPE Brasil 2009 na categoria serviços, o BJ Aceleração pelo melhor protótipo baseado em estratégias de experiência no consumo do produto do cliente, o PEG 500 pontos - Prata no Programa de Excelência em Gestão da Brasil Júnior, e o 1º lugar no melhor case - DESTINE no Modelo de Excelência da Gestão.",
+        "Quantos projetos a A.C.E. Consultoria já executou nos últimos 5 anos?": "A A.C.E. Consultoria já executou mais de 500 projetos nos últimos 5 anos, prestando consultoria para negócios de referência nacional e para empreendedores iniciantes.",
+        "Quantos membros compõem a equipe da A.C.E. Consultoria?": "A equipe da A.C.E. Consultoria é composta por aproximadamente 52 membros, provenientes de mais de 36 cursos diferentes, incluindo Engenharia de Produção e Sistemas de Informação.",
         "Qual é o horário de funcionamento?": "Nosso horário é de segunda a sexta, das 8h às 12h e 14h às 18h.",
         "Como entro em contato?": "Você pode entrar em contato a partir do nosso instagram: @aceconsultoria e falar entrar em contato através doo nosso site: www.aceconsultoria.com.br",
-        "Quais serviços vocês oferecem?": "Pesquisa de Mercado, Estruturação Financeira, Planejamento Estratégico, Mapeamento de processos, Plano de Negócios, Gestão de pessoas, Plano de Marketing"
+        "Quais serviços vocês oferecem?": "Pesquisa de Mercado, Estruturação Financeira, Planejamento Estratégico, Mapeamento de processos, Plano de Negócios, Gestão de pessoas, Plano de Marketing",
+        "Qual o ano de fundação?": "A A.C.E. Consultoria foi fundada em 1993.",
+        "É remunerado?": "Em termos de mercado não não há remuneração salarial. Porém, há um auxílio de R$160,00 mensais para consultores.",
+        "Qual período mínimo de duração na ACE?": "O período mínimo de duração na A.C.E. é de 1 ano e meio, sendo a trajetória recomendada 1 ano como consultor, podendo estar em algum cargo interno e 6 meses como gerente. É possível prolongar sua trajetória na A.C.E. se candidatando a alguma diretoria, onde, caso passe, ficará mais 1 anos ocmo diretor.",
+        "Quais cursos são aceitos?": "Todos os cursos são aceitos na A.C.E., nosso processo seletivo aborda as skills individuais de cada pessoa, independentemente de curso.",
+        "Qual a missão, visão e valores da ACE?": "Missão: Fornecer as melhores soluções de gestão para o mercado, formando lideranças diversificadas e potencializando resultados através da inovação. Visão: Propagar a Chama! Valores: Liderar fazendo o certo. Não entregue, Encante! Ser inconformado não basta. Construímos juntos. Sentimento de dono. Desculpa ou Resultado! Visão: Valores: .",
+        "& C:/Users/Pc1ac/AppData/Local/Programs/Python/Python313/python.exe \"c:/Users/Pc1ac/Desktop/Projetos com Programação/ChatBot A.C.E/test_chatbot.py\"": "Olá! Como posso ajudar você hoje?\n\nPara que eu possa te ajudar de forma mais específica, preciso de mais contexto sobre sua situação. Por favor, me diga:\n\n* Qual o seu objetivo?\n* Qual a sua dificuldade?\n* Qual o que você já tentou?\n* Qual o que você gostaria que eu fazer?\n\nCom mais informação, posso fornecer-lhe uma solução personalizada.",
+        "o que eu ganho em entrar na a.c.e.?": "Como assistente virtual da A.C.E. Consultoria, meu objetivo é ajudar os nossos clientes a obter os melhores resultados possível em seus projetos e investimentos.\n\nEntrando na A.C.E., você terá acesso a uma gama de recursos e ferramentas que podem ajudá-lo a:\n\n* **Gerenciar seus investimentos**\n* **Identificar oportunidades de investimento**\n* **Realizar pesquisas e análise de mercado**\n* **Fornecer insights sobre as principais notícias financeiras**\n* **Manter-se atualizado com as últimas tendências em negócios**\n\nAlém disso, você terá acesso a um grupo de profissionais de investimento, que estará disponível para ajudar você com qualquer dúvida ou consulta que você tiver.\n\nEstou aqui para ajudá-lo a alcançar seus objetivos financeiros."
     }
 }
-

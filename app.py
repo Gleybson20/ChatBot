@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.chatbot import chatbot_response
+from chatbot import chatbot_response
 
 app = FastAPI()
 

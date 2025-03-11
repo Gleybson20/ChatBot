@@ -1,6 +1,6 @@
 import unittest
-from src.chatbot import chatbot_response
-from src.data_loader import load_knowledge_base, add_to_knowledge_base
+from chatbot import chatbot_response
+from data_loader import load_knowledge_base, add_to_knowledge_base
 
 class TestChatbot(unittest.TestCase):
     def setUp(self):
@@ -32,5 +32,6 @@ class TestChatbot(unittest.TestCase):
         updated_knowledge_base = load_knowledge_base()
         self.assertEqual(updated_knowledge_base["faq"].get(new_question), new_answer)
 
-if __name__ == "__main__":
+if __name__ == "__name__":
     unittest.main()
+    

@@ -1,4 +1,4 @@
-from src.data_loader import get_answer_from_faq, knowledge_base
+from data_loader import get_answer_from_faq, knowledge_base
 
 def test_json_manual():
     """

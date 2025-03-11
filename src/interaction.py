@@ -1,4 +1,4 @@
-from src.chatbot import chatbot_response
+from chatbot import chatbot_response
 
 def start_chatbot():
     """
