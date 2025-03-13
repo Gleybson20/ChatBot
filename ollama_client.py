@@ -1,12 +1,12 @@
 import ollama
 
-def chat_with_openai(prompt):
+def chat_with_ollama(prompt):
     """
-    Envia um prompt para o modelo Mistral rodando localmente via Ollama.
+    Envia um prompt para o modelo da Ollama rodando localmente.
     """
     try:
         response = ollama.chat(
-            model="mistral",  # Usando Mistral como exemplo
+            model="mistral",  # Ou outro modelo que você escolher
             messages=[
                 {"role": "system", "content": "Você é um assistente virtual da A.C.E. Consultoria."},
                 {"role": "user", "content": prompt}
@@ -14,10 +14,4 @@ def chat_with_openai(prompt):
         )
         return response["message"]["content"]
     except Exception as e:
-        return f"❌ Erro na comunicação com Mistral: {str(e)}"
-
-# Teste opcional ao rodar o arquivo diretamente
-if __name__ == "__main__":
-    pergunta_teste = "O que é a A.C.E. Consultoria?"
-    print(f"Pergunta: {pergunta_teste}")
-    print("Resposta do Mistral:", chat_with_openai(pergunta_teste))
+        return f"Essa pergunta será respondida ao longo do trainee."

@@ -25,20 +25,4 @@ def get_answer_from_faq(question, knowledge_base):
     if question in faq:
         return faq[question]
     
-    return None  # Caso não encontre, o chatbot tentará a OpenAI depois
-
-def add_to_knowledge_base(question, answer, knowledge_base):
-    """Adiciona uma nova pergunta e resposta à base de conhecimento e salva no JSON."""
-    faq = knowledge_base.get("faq", {})
-    
-    # Verifica se a pergunta já existe antes de adicionar
-    if question not in faq:
-        faq[question] = answer
-        knowledge_base["faq"] = faq
-        
-        # Salva a nova entrada no arquivo JSON
-        with open(DATA_PATH, "w", encoding="utf-8") as file:
-            json.dump(knowledge_base, file, indent=4, ensure_ascii=False)
-        print("✅ Nova entrada adicionada à base de conhecimento!")
-    else:
-        print("❌ Pergunta já existe na base de conhecimento. Não foi adicionada.")
+    return None  # Caso não encontre, o chatbot tentará a Ollama depois
