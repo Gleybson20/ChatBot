@@ -32,7 +32,7 @@ def chatbot_response(question):
     # Passo 2: Tentar encontrar a resposta mais parecida no JSON
     similar_answer = get_most_similar_answer(question, knowledge_base)
     if similar_answer:
-        return f"Baseado na nossa base de conhecimento, aqui está uma resposta relacionada: {similar_answer}"
+        return f"{similar_answer}"
 
     # Passo 3: Consultar o modelo de IA (Ollama/Mistral)
     openai_response = chat_with_openai(question)
